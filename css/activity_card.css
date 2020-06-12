@@ -1,0 +1,33 @@
+
+.activity_img {
+    display: block;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.activity_info {
+    padding: 24px;
+}
+
+.activity_icon {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+.activity {
+    max-height: 380px;
+    position: relative;
+
+}
+
+.age_overlay {
+    color: #fff;
+    font-weight: 500;
+    padding: 60px 24px 24px 24px;
+    top: 7rem;
+    background: linear-gradient(180deg, rgba(33, 33, 33, 0) 0%, #2F374D 100%);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+}

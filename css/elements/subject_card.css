@@ -1,0 +1,13 @@
+.subject_category {
+    width: 100%;
+    max-height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24PX;
+}
+.subject_category{
+      grid-template-columns: repeat(3, 1fr);
+  /* это тоже самое, что grid-template-rows: 300px 300px; */
+ grid-template-rows: auto;
+}

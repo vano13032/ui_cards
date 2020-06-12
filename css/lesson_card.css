@@ -1,0 +1,29 @@
+.lesson {
+    padding: 24px;
+    min-width: 320px;
+    height: 260px;
+    position: relative;
+}
+
+.age {
+    padding: 12px 12px;
+    background: #F7F0FF;
+    width: 65px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.subject_img {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+
+.status {
+    height: 32px;
+    width: 130px;
+    text-align: center;
+    background: #E2EFFF;
+    border-radius: 6px;
+    padding-top: 7px
+}

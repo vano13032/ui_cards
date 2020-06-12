@@ -1,0 +1,26 @@
+a {
+    min-width: 150px;
+    padding: 10px 20px;
+    background: #4F2DF4;
+    border-radius: 8px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.7s;
+    background: #694df1;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+    .link {
+        justify-content: center;
+    }
+}
